@@ -1,5 +1,16 @@
+## Instalation
 
-## Examples: 
+Clone GIT repository: 
+
+    git clone https://github.com/Seluxit/ecc-converter
+
+Build excutable
+
+    cd build
+    ./configure
+    make
+
+## Usage examples: 
 
 Generate secp256r1 elliptic curve's private and public key pair and save to PEM files: 'ecc-gen-private-key.pem' and
 ecc-gen-public-key.pem
