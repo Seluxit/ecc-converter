@@ -10,6 +10,14 @@ Build excutable
     ./configure
     make
 
+## Command line switches
+    
+    -p --private        Private key in HEX string or file name in PEM format
+    -b --public         Public key in HEX string or file name ib PEM format
+    -g --generate       Generate private public key pair and save to PEM file format.
+    -o --output         Output conversion result to specified file name (PEM file format).
+
+
 ## Usage examples: 
 
 Generate secp256r1 elliptic curve's private and public key pair and save to PEM files: 'ecc-gen-private-key.pem' and
